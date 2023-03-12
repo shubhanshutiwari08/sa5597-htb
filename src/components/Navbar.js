@@ -12,13 +12,13 @@ export default function Navbar() {
         <div className='px-2 flex justify-between items-center w-full h-full'>
             <div className='flex items-center'>
                 {/* <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>Dribbble</h1> */}
-                <img className='w-[150px]' src={logo} alt="" />
+                <img className='w-[150px] cursor-pointer' src={logo} alt="" />
                 <ul className='hidden md:flex'>
-                    <li>Inspiration</li>
-                    <li>Find work</li>
-                    <li>learn Design</li>
-                    <li>Go pro</li>
-                    <li>Hire Designers</li>
+                    <li className='cursor-pointer'>Inspiration</li>
+                    <li className='cursor-pointer'>Find work</li>
+                    <li className='cursor-pointer'>learn Design</li>
+                    <li className='cursor-pointer'>Go pro</li>
+                    <li className='cursor-pointer'>Hire Designers</li>
                 </ul>
             </div>
             <div className='hidden md:flex pr-4'>

@@ -4,7 +4,7 @@ import Item from "./Item"
 
 export default function Footer() {
   return (
-    <div className='w-full h-full bg-[#d6d2ff]'>
+    <div className='w-full h-full bg-[#d6d2ff48] my-4'>
       <div>
         <img className='h-[100px]' src={logo} alt="" />
         <p className='text-0.5xl font-medium mr-6 sm:text-1xl  mx-7 w-[220px]'>Dribbble is the world's leading community for creatives to share, grow, and get hired.</p>
